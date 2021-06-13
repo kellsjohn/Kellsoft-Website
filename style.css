@@ -6,10 +6,12 @@
     background-attachment: fixed;
 }
 .navitems{
-    background: transparent;
     position: fixed;
     z-index: 1;
     width: 100%;
+}
+.navitems.sticky{
+    background-color: #020210;
 }
 
 .text3{
@@ -122,9 +124,19 @@
         background-size: 100%;
         height: 33em;
     }
+}
 @media only screen and (max-width: 767px) {
     .servicesmall{
         background-image: url('images/kellsoftthemeiphone61.png');
         background-size: 100%;
         height: auto;
     }
+}
+.navbar-toggler{
+    margin-left: 78%;
+}
+.footersection{
+    background: #020210f5;
+    color: white;
+    text-align: center;
+}
