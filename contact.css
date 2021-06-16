@@ -1,0 +1,46 @@
+.navitems{
+    background: #020210;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.heading{
+    background-image: url('images/kellsofttheme.png');
+    height: auto;
+    background-attachment: fixed;
+}
+@media only screen and (max-width: 767px) {
+    .servicesmall{
+        background-image: url('images/kellsoftthemeiphone61.png');
+        background-size: 100%;
+        
+    }
+}
+
+.text1{
+    color: white;
+    margin-top: 3em;
+    font-family: chewy;
+    text-align: center;
+    transition: 0.5s;
+}
+.text1:hover{
+    color: rgb(27, 27, 133);
+}
+.textarea{
+    height: 200px;
+}
+.footersection{
+    background: #020210f5;
+    color: white;
+    text-align: center;
+}
+.text2{
+    font-family: 'chewy', sans-serif;
+    font-size: 30px;
+    text-align: end;
+}
+.footerlogo{
+    height: 35px;
+    width: 35px;
+}

@@ -187,3 +187,17 @@
     transition-delay: 0.75s;
     
 }
+.footersection{
+    background: #020210f5;
+    color: white;
+    text-align: center;
+}
+.text2{
+    font-family: 'chewy', sans-serif;
+    font-size: 30px;
+    text-align: end;
+}
+.footerlogo{
+    height: 35px;
+    width: 35px;
+}

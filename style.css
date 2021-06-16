@@ -18,6 +18,10 @@
     color: white;
     text-align: center; 
     font-family:chewy;
+    transition: 0.5s;
+}
+.text3:hover{
+    color: rgb(27, 27, 133);
 }
 
 .btn{
@@ -139,4 +143,13 @@
     background: #020210f5;
     color: white;
     text-align: center;
+}
+.text2{
+    font-family: 'chewy', sans-serif;
+    font-size: 30px;
+    text-align: end;
+}
+.footerlogo{
+    height: 35px;
+    width: 35px;
 }
