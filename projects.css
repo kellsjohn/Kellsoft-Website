@@ -8,12 +8,14 @@
     background-image: url('images/kellsofttheme.png');
     height: auto;
     background-attachment: fixed;
+    background-size: cover;
+    
 }
 @media only screen and (max-width: 767px) {
     .servicesmall{
-        background-image: url('images/kellsoftthemeiphone61.png');
+        background-image: url('images/kellsoftthemeiphone6.png');
         background-size: 100%;
-        
+        height: auto;      
     }
 }
 .text1{
@@ -191,6 +193,7 @@
     background: #020210f5;
     color: white;
     text-align: center;
+    
 }
 .text2{
     font-family: 'chewy', sans-serif;
@@ -200,4 +203,7 @@
 .footerlogo{
     height: 35px;
     width: 35px;
+}
+.navbar-toggler{
+    margin-left: 78%;
 }
